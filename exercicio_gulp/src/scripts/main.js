@@ -1,1 +1,1 @@
-console.log("JavaScript carregado com sucesso!");
+console.log("Automacao do Gulp rodando perfeitamente!");
