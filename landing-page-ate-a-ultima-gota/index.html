@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Até a Última Gota | Filme Oficial - Tyler Perry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <h1>ATÉ A ÚLTIMA GOTA</h1>
+            <span>Um filme de Tyler Perry</span>
+        </div>
+        <nav>
+            <a href="#sinopse">Sinopse</a>
+            <a href="#streamings">Onde Assistir</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#cadastro" class="btn-menu">Ingresso Pré-Estreia</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-video-bg">
+            <iframe
+                src="https://www.youtube.com/embed/di2Po9Xc8bU?autoplay=1&mute=1&loop=1&playlist=di2Po9Xc8bU&controls=0&showinfo=0&rel=0&disablekb=1"
+                title="Até a Última Gota Trailer" frameborder="0" allow="autoplay; encrypted-media">
+            </iframe>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-conteudo">
+            <span class="badge">Lançamento Exclusivo</span>
+            <h2>Até onde uma mãe vai pelo seu filho?</h2>
+            <p>Um drama tenso e emocionante com atuação aclamada de Taraji P. Henson.</p>
+
+            <div class="hero-botoes">
+                <a href="#streamings" class="btn-principal">Assistir na Netflix</a>
+                <a href="#galeria" class="btn-secundario">Ver Cenas</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sinopse" class="secao">
+        <div class="container">
+            <h2>Sobre o Filme</h2>
+            <p class="descricao">
+                Em um único dia avassalador, Janiyah, uma mãe solo batalhadora, vê sua vida desmoronar por conta de
+                injustiças e desespero. Empurrada contra a parede pelo sistema, ela toma uma atitude extrema que
+                paralisa a cidade. Até onde ela vai aguentar?
+            </p>
+        </div>
+    </section>
+
+    <section id="streamings" class="secao secao-escura">
+        <div class="container">
+            <h2>Assista Agora</h2>
+            <p>O filme está disponível globalmente e de forma exclusiva na plataforma:</p>
+
+            <div class="grid-streamings">
+                <div class="card-streaming netflix">
+                    <div class="badge-exclusivo">EXCLUSIVO</div>
+                    <h3>NETFLIX</h3>
+                    <p>Disponível no catálogo oficial em 4K Ultra HD com áudio original, dublagem e legendas em
+                        português.</p>
+                    <a href="https://www.netflix.com/title/81728131" target="_blank"
+                        class="btn-principal btn-full">Assistir Agora na Netflix</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="secao">
+        <div class="container">
+            <h2>Cenas do Filme</h2>
+
+            <div class="carrossel-container">
+                <div class="carrossel-slide active">
+                    <img src="img/banner.jpeg" alt="Cartaz oficial do filme Até a Última Gota">
+                    <p class="legenda">Esgotamento físico e mental por busca de sobrevivencia.</p>
+                </div>
+
+                <div class="carrossel-slide">
+                    <img src="img/chuva.webp" alt="Cenário urbano do filme">
+                    <p class="legenda">A rotina difícil e a pressão da cidade grande.</p>
+                </div>
+
+                <div class="carrossel-slide">
+                    <img src="img/filha.jpg" alt="Confronto e negociação">
+                    <p class="legenda">Confrontos intensos e buscas por justiça.</p>
+                </div>
+
+                <button id="btn-anterior" class="btn-carrossel">&lt;</button>
+                <button id="btn-proximo" class="btn-carrossel">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cadastro" class="secao secao-escura">
+        <div class="container">
+            <h2>Garanta seu Convite VIP</h2>
+            <p>Cadastre-se para receber avisos de bastidores exclusivos e debates com o elenco.</p>
+
+            <form id="form-vip">
+                <input type="text" id="nome" placeholder="Seu nome completo" required>
+                <input type="email" id="email" placeholder="Seu melhor e-mail" required>
+                <button type="submit" class="btn-principal">Cadastrar</button>
+            </form>
+
+            <p id="mensagem-confirmacao" class="mensagem-sucesso"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Divulgação do Filme "Até a Última Gota". Projeto Front-End EBAC - Priscila Durão.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
